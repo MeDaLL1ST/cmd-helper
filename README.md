@@ -20,7 +20,7 @@
 Для установки выполните следующую команду в вашем терминале. Скрипт автоматически определит вашу ОС и архитектуру, скачает нужный бинарный файл и настроит вашу оболочку.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPONAME/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/MeDaLL1ST/cmd-helper/main/install.sh | bash
 ```
 **Замечание:** Рекомендуется сначала [ознакомиться с кодом скрипта](https.raw.githubusercontent.com/MeDaLL1ST/cmd-helper/main/install.sh), прежде чем выполнять его.
 
@@ -50,7 +50,7 @@ export LLM_CMD_HELPER_PROMPT_PREFIX="Исправь эту команду: "
 
 *   `LLM_API_TOKEN` (**Обязательно**): Ваш секретный ключ для доступа к API.
 *   `LLM_API_URL` (*Опционально*): URL эндпоинта. По умолчанию: `https://api.openai.com/v1/chat/completions`.
-*   `LLM_MODEL_NAME` (*Опционально*): Имя модели для запросов. По умолчанию: `aimediator.o4-mini`.
+*   `LLM_MODEL_NAME` (*Опционально*): Имя модели для запросов. По умолчанию: `o4-mini`.
 *   `LLM_CMD_HELPER_PROMPT_PREFIX` (*Опционально*): Позволяет полностью переопределить системный промпт, который отправляется модели.
 
 После добавления переменных перезапустите терминал или выполните `source ~/.zshrc` (или `source ~/.bashrc`).
