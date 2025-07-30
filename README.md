@@ -22,7 +22,7 @@
 ```bash
 curl -fsSL https://raw.githubusercontent.com/MeDaLL1ST/cmd-helper/main/install.sh | bash
 ```
-**Замечание:** Рекомендуется сначала [ознакомиться с кодом скрипта](https.raw.githubusercontent.com/MeDaLL1ST/cmd-helper/main/install.sh), прежде чем выполнять его.
+**Замечание:** Рекомендуется сначала [ознакомиться с кодом скрипта](https://raw.githubusercontent.com/MeDaLL1ST/cmd-helper/main/install.sh), прежде чем выполнять его.
 
 ## Конфигурация
 
