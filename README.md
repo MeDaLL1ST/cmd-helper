@@ -39,7 +39,7 @@ export LLM_API_TOKEN="sk-..."
 # Опционально: URL для API (по умолчанию используется openai)
 export LLM_API_URL="https://api.openai.com/v1/chat/completions"
 
-# Опционально: имя модели (по умолчанию 'aimediator.o4-mini')
+# Опционально: имя модели (по умолчанию 'o4-mini')
 export LLM_MODEL_NAME="имя_вашей_модели"
 
 # Опционально: можно переопределить системный промпт
