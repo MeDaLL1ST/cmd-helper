@@ -36,7 +36,7 @@ curl -fsSL https://raw.githubusercontent.com/MeDaLL1ST/cmd-helper/main/install.s
 # Обязательная переменная: ваш API-токен
 export LLM_API_TOKEN="sk-..."
 
-# Опционально: URL для API (по умолчанию используется GlowByte)
+# Опционально: URL для API (по умолчанию используется openai)
 export LLM_API_URL="https://api.openai.com/v1/chat/completions"
 
 # Опционально: имя модели (по умолчанию 'aimediator.o4-mini')
